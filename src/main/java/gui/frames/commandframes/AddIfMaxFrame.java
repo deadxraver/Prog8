@@ -1,0 +1,11 @@
+package gui.frames.commandframes;
+
+import clientlogic.ClientProgram;
+import commands.client.ClientCommand;
+
+public class AddIfMaxFrame extends MovieFrame {
+
+	public AddIfMaxFrame(ClientProgram clientProgram, ClientCommand clientCommand) {
+		super(clientProgram, clientCommand);
+	}
+}

@@ -1,0 +1,109 @@
+├───annotations
+│       MainMethod.java
+│
+├───clientlogic
+│       ClientMain.java
+│       ClientProgram.java
+│
+├───commands
+│   │   Command.java
+│   │   MovieGenerator.java
+│   │
+│   ├───client
+│   │   │   Add.java
+│   │   │   AddIfMax.java
+│   │   │   Clear.java
+│   │   │   ClientCommand.java
+│   │   │   Help.java
+│   │   │   Info.java
+│   │   │   MaxByMpaaRating.java
+│   │   │   PrintFieldAscendingOperator.java
+│   │   │   RemoveAllByOscarsCount.java
+│   │   │   RemoveById.java
+│   │   │   RemoveHead.java
+│   │   │   RemoveLower.java
+│   │   │   Show.java
+│   │   │   Update.java
+│   │   │
+│   │   └───logreg
+│   │           Disconnect.java
+│   │           Login.java
+│   │           Register.java
+│   │
+│   └───server
+│           Grant.java
+│           Help.java
+│           ServerCommand.java
+│
+├───datapacks
+│       DataPack.java
+│       RequestPackage.java
+│       ResponsePackage.java
+│
+├───elements
+│       Color.java
+│       Coordinates.java
+│       Country.java
+│       Movie.java
+│       MovieCollection.java
+│       MovieGenre.java
+│       MpaaRating.java
+│       Person.java
+│       User.java
+│
+├───exceptions
+│       AccessException.java
+│       AuthorizationException.java
+│       DateIsNotReachedException.java
+│       EmptyCollectionException.java
+│       EmptyStringException.java
+│       IncorrectInputException.java
+│       NoSuchColorException.java
+│       NoSuchCommandException.java
+│       NoSuchCountryException.java
+│       NoSuchGenreException.java
+│       NoSuchMovieException.java
+│       NoSuchMpaaRatingException.java
+│       NullFieldException.java
+│       NumberOutOfBoundsException.java
+│       ParseException.java
+│       PasswordException.java
+│       SecurityException.java
+│       UserAlreadyExistsException.java
+│       ValidationException.java
+│       WrongNumberOfArgumentsException.java
+│
+├───gui
+│   │   ColorGenerator.java
+│   │   GUIMain.java
+│   │
+│   └───frames
+│           AddFrame.java
+│           CollectionFrame.java
+│           ErrorFrame.java
+│           LoadingFrame.java
+│           LogRegFrame.java
+│           MapFrame.java
+│           MovieFrame.java
+│
+├───parsers
+│       ArgsParser.java
+│       ColorParser.java
+│       CountryParser.java
+│       DateTimeParser.java
+│       DoubleParser.java
+│       FloatParser.java
+│       GenreParser.java
+│       IntParser.java
+│       LongParser.java
+│       MovieParser.java
+│       MpaaRatingParser.java
+│       StringParser.java
+│
+└───serverlogic
+        ClientHandler.java
+        DBManipulation.java
+        PasswordHandler.java
+        ServerConsole.java
+        ServerMain.java
+        ServerProgram.java
